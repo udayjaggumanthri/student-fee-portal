@@ -1,0 +1,39 @@
+# ==============================================================================
+# EduFee Pro — Backend .gitignore
+# ==============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# Database
+*.sqlite3
+*.db
+db.sqlite3
+db.sqlite3-journal
+
+# Media / Uploaded Receipts
+media/*
+!media/.gitkeep
+!media/payments/
+media/payments/*
+!media/payments/.gitkeep
+
+# Static collected
+staticfiles/
+static_collected/
+
+# Logs
+*.log
